@@ -8,11 +8,9 @@
     cursor: pointer;
     height: 40px;
     width: 100%;
-    /*position: absolute;*/
+    position: absolute;
     top: -10px;
     left: -5px;
-    border: 1px solid gold;
-
 }
 
 .mejs-playpause-button.mejs-play {

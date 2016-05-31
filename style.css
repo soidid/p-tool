@@ -4,17 +4,29 @@
 	overflow: hidden;
 }
 .mejs-playpause-button {
-	border: 1px solid;
-	cursor: pointer;
-	height: 40px;
+	border: 1px solid rgb(50,50,50);
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    left: -5px;
 }
 
 .mejs-playpause-button.mejs-play {
-	background: url('./images/play.svg') 50% no-repeat;
+	background: url('./images/play.svg') right center no-repeat;
+    background-size: 30px;
+}
+.unit:hover .mejs-playpause-button.mejs-play {
+	background: url('./images/play-hover.svg') right center no-repeat;
     background-size: 30px;
 }
 .mejs-playpause-button.mejs-pause {
-	background: url('./images/pause.svg') 50% no-repeat;
+	background: url('./images/pause.svg') right center no-repeat;
+    background-size: 30px;
+}
+.unit:hover .mejs-playpause-button.mejs-pause {
+	background: url('./images/pause-hover.svg') right center no-repeat;
     background-size: 30px;
 }
 *:focus {
@@ -31,6 +43,8 @@ button:focus {
 body {
 	padding-top: 8px;
 	font-family: helvetica, clean, sans-serif;
+	background: #333030;
+    color: rgb(250,250,250);
 }
 @media all and (min-width: 600px){
 	body {
@@ -41,11 +55,16 @@ body {
 h1 {
 	font-size: 24px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 .unit {
-	margin: 10px;
+	margin: 20px 10px;
+	position: relative;
+}
+.unit:hover{
+	color: #FFD300;
 }
 .vocabulary {
-	padding: 4px 4px 6px 4px;
-    font-size: 20px;
+	font-size: 20px;
+	text-align: center;
 }

@@ -14,20 +14,24 @@
 }
 
 .mejs-playpause-button.mejs-play {
-	background: url('./images/play.svg') 50% no-repeat;
+	background: url('./images/play.svg') right center no-repeat;
     background-size: 30px;
+    -webkit-background-size: 30px;
 }
 .unit:hover .mejs-playpause-button.mejs-play {
 	background: url('./images/play-hover.svg') right center no-repeat;
     background-size: 30px;
+     -webkit-background-size: 30px;
 }
 .mejs-playpause-button.mejs-pause {
 	background: url('./images/pause.svg') right center no-repeat;
     background-size: 30px;
+     -webkit-background-size: 30px;
 }
 .unit:hover .mejs-playpause-button.mejs-pause {
 	background: url('./images/pause-hover.svg') right center no-repeat;
     background-size: 30px;
+     -webkit-background-size: 30px;
 }
 *:focus {
     outline: none;

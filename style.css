@@ -1,0 +1,51 @@
+.mejs-offscreen, .mejs-time, .mejs-currenttime-container, .mejs-duration-container,
+.mejs-volume-button, .mejs-time-rail {
+	display: none;
+	overflow: hidden;
+}
+.mejs-playpause-button {
+	border: 1px solid;
+	cursor: pointer;
+	height: 40px;
+}
+
+.mejs-playpause-button.mejs-play {
+	background: url('./images/play.svg') 50% no-repeat;
+    background-size: 30px;
+}
+.mejs-playpause-button.mejs-pause {
+	background: url('./images/pause.svg') 50% no-repeat;
+    background-size: 30px;
+}
+*:focus {
+    outline: none;
+}
+.mejs-playpause-button button {
+	display: none;
+}
+button:focus {
+	outline: none;
+}
+
+/* ----- */
+body {
+	padding-top: 8px;
+	font-family: helvetica, clean, sans-serif;
+}
+@media all and (min-width: 600px){
+	body {
+		width: 600px;
+		margin: 0 auto;
+	}
+}
+h1 {
+	font-size: 24px;
+	text-align: center;
+}
+.unit {
+	margin: 10px;
+}
+.vocabulary {
+	padding: 4px 4px 6px 4px;
+    font-size: 20px;
+}

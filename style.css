@@ -42,6 +42,7 @@ button:focus {
 /* ----- */
 body {
 	padding-top: 8px;
+	width: 100%;
 	font-family: helvetica, clean, sans-serif;
 	background: #333030;
     color: rgb(250,250,250);

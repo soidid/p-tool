@@ -73,3 +73,18 @@ h1 {
 	font-size: 20px;
 	text-align: center;
 }
+.page-links {
+	display: block;
+	text-align: center;
+}
+.next,.next:visited {
+	color: black;
+    text-align: center;
+    padding: 10px 40px;
+    background: lightblue;
+    background: #FFD300;
+    text-decoration: none;
+}
+.next:hover {
+	text-decoration: underline;
+}

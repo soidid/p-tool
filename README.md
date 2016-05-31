@@ -1,1 +1,1 @@
-Audio files source: [The People's Dictionary](http://folkets-lexikon.csc.kth.se/folkets/folkets.en.html)
+Audio files source: [The People's Dictionary](http://folkets-lexikon.csc.kth.se/folkets/folkets.en.html), [FORVO](http://forvo.com/), [wikionary](en.wiktionary.org), [HowToPronounce](https://www.howtopronounce.com/)

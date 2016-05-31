@@ -14,7 +14,7 @@
 }
 
 .mejs-playpause-button.mejs-play {
-	background: url('./images/play.svg') right center no-repeat;
+	background: url('./images/play.svg') 50% no-repeat;
     background-size: 30px;
 }
 .unit:hover .mejs-playpause-button.mejs-play {

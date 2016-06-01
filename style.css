@@ -62,6 +62,10 @@ h1 {
 	text-align: center;
 	margin-bottom: 30px;
 }
+br {
+	color: gold;
+	border-bottom:1px dashed gold;
+}
 .unit {
 	margin: 20px 10px;
 	position: relative;
@@ -76,6 +80,7 @@ h1 {
 .page-links {
 	display: block;
 	text-align: center;
+	margin: 30px 0 100px 0;
 }
 .next,.next:visited {
 	color: black;

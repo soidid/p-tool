@@ -93,3 +93,16 @@ br {
 .next:hover {
 	text-decoration: underline;
 }
+.menu, .menu:visited {
+	display: block;
+    color: black;
+    text-align: left;
+    padding: 10px 20px;
+    background: lightgray;
+    text-decoration: none;
+    margin: 20px;
+}
+.menu:hover {
+	background: #FFD300; 
+    
+}

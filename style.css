@@ -93,6 +93,14 @@ br {
 .next:hover {
 	text-decoration: underline;
 }
+.title, .title:visited {
+	color: rgb(250,250,250);
+	text-decoration: none;
+}
+.title:hover {
+	color: #FFD300; 
+
+}
 .menu, .menu:visited {
 	display: block;
     color: black;

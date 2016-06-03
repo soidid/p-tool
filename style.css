@@ -93,6 +93,14 @@ br {
 .next:hover {
 	text-decoration: underline;
 }
+.page, .page:visited {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.page:hover {
+	color: #FFD300;
+}
 .title, .title:visited {
 	color: rgb(250,250,250);
 	text-decoration: none;
